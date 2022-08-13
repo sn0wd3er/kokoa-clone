@@ -1,0 +1,34 @@
+#status-bar {
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:10px;
+    
+}
+.status-bar__col {
+    display: flex;
+    width:33%
+}
+
+.status-bar__col:first-child {
+    align-items: center;
+    justify-content: flex-start;
+    padding-left:5px;
+}
+.status-bar__col:nth-child(2){
+    align-items: center;
+    justify-content: center;
+}
+.status-bar__col:last-child{
+    align-items: center;
+    justify-content: flex-end;
+    padding-right:5px;
+}
+.fa-wifi {
+    margin-left:5px;
+}
+
+.fa-bolt {
+    margin: 0px 5px;
+}

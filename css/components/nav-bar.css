@@ -1,0 +1,42 @@
+.nav {
+    background-color: #f9f9fa;
+    width:100%;
+    padding:20px 40px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+    position:fixed;
+    bottom:0px;
+    box-sizing: border-box;
+}
+.nav__link {
+    position: relative;
+}
+.nav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__notification {
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    font-size:15px;
+    font-weight:200;
+    position: absolute;
+    left:20px;
+    top:-15px;
+}
+.ellipsis__notification {
+    width:5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: absolute;
+    top:-7px;
+    left:25px;
+}
