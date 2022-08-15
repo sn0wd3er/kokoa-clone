@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding:var(--padding-side);
     align-items: center;
+    margin-bottom:10px;
 }
 
 .screen-header__icons span {
